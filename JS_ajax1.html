@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="js_ajax_server.js"></script>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link href="js_ajax_server.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Client Server</a>
+        </div>
+
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4">
+            <h1 class="display-3 text-sm-center">An Online NLTK Demo</h1>
+            <p class="lead text-sm-center">(Only English Text Is Permitted)</p>
+
+
+            <div id="wrap">
+            <input type="text" class="box txtsize text-sm-center" id="inpField1"><br><br>
+            </div>
+            <br><br>
+            <div id="wrapper">
+            <button class="btn btn-primary btn-lg" onclick="postFieldDataYoOurServer () ">Post Field Data</button>
+            </div>
+
+        </header>
+<br>
+        <!-- Page Features -->
+        <div class="col-container" id="wrp">
+        <div class="row text-center col-container">
+
+            <div class="col-lg-3 col-md-6 mb-4 col ">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="text-sm-center conttitle ital">   POS1 <br> Tagging: </p>
+                        <hr>
+                        <br>
+                        <p id="POS1" class="card-text txtsize"></p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 col">
+                <div class="card h-100">
+                    <div class="card-body col">
+                      <p class="text-sm-center conttitle2"> Possible</p>
+                        <hr>
+                        <br><p class="txtsize">
+                        CC: coordinating conjunction<br>
+                        CD: cardinal digit<br>
+                        DT: determiner<br>
+                        EX: existential <br>
+                        FW: foreign <br>
+                        IN: prep/sub conjunction<br>
+                        JJ: adjective <br>
+                        JJR: adjective, comparative <br>
+                        JJS: adjective, superlative <br>
+                        LS: list marker <br>
+                        MD: modal <br>
+                        NN: noun, singular <br>
+                        NNS: noun plural <br>
+                        NNP: proper noun, singular <br>
+                        NNPS: proper noun, plural <br>
+                        PDT: predeterminer <br>
+                        POS: possessive ending<br>
+                        PRP: personal pronoun <br>
+                        </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 col">
+                <div class="card h-100">
+                    <div class="card-body col">
+                        <p class="text-sm-center conttitle2">  Outcomes </p>
+
+                        <hr>
+                        <br><p class="txtsize">
+                        PRP$: possessive pronoun<br>
+                        RB: adverb very, silently,<br>
+                        RBR: adverb, comparative <br>
+                        RBS: adverb, superlative<br>
+                        RP: particle give up<br>
+                        TO: to go to the store.<br>
+                        UH: interjection<br>
+                        VB: verb, base form<br>
+                        VBD: verb, past tense <br>
+                        VBG: verb, gerund/present participle <br>
+                        VBN: verb, past participle<br>
+                        VBP: verb, present, non-3d <br>
+                        VBZ: verb, 3rd person <br>
+                        WDT: wh-determiner<br>
+                        WP: wh-pronoun <br>
+                        WP$: possessive wh-pronoun<br>
+                        WRB: wh-abverb
+                    </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 col">
+                <div class="card h-100">
+                    <div class="card-body col">
+                        <p class="text-sm-center conttitle ital">   POS2 <br> Tagging:</p>
+                        <hr>
+                        <br>
+                        <p id="POS2" class="card-text txtsize"></p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+    <br><br><br>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Kian Parnis 107601L</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+
+    </body>
+
+</html>
+
+</body>
+</html>
